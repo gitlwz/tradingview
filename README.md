@@ -1,20 +1,17 @@
-# TradingView Charting Library and React Integration Example (JavaScript)
+# TradingView Charting Library
 
-## How to start
 
-1. Install dependencies `npm install`.
-1. Copy `charting_library` folder from https://github.com/tradingview/charting_library/ to `/public`. The earliest supported version of the Charting Library is 1.12. If you get 404 then you need to [request an access to this repository](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/).
-1. Copy `datafeeds` folder from https://github.com/tradingview/charting_library/ to `/public`.
-1. Run `npm start`. It will build the project and open a default browser with the Charting Library.
+This repository contains the TradingView Charting Library package. If you use Git in your project, please feel free to use this repo as a submodule in yours.
 
-## What is Charting Library
+The `master` branch contains the current stable version. 
 
-Charting Library is a standalone solution for displaying charts. This free, downloadable library is hosted on your servers and is connected to your data feed to be used in your website or app. [Learn more and download](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/).
+The `unstable` branch contains the most recent features and fixes, but it can be less stable (actually, it's the beta, which is already thoroughly tested).
 
-## What is React
+### Documentation
+See our docs in this repository's [wiki](https://github.com/tradingview/charting_library/wiki). Please read it (at least the [Overview](https://github.com/tradingview/charting_library/wiki) and the [Best Practices](https://github.com/tradingview/charting_library/wiki/Best-practices)) before using the Library.
 
-React is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations.
+### Issues Tracking
+We use GitHub's [Issues tracker](https://github.com/tradingview/charting_library/issues) for our project. Feel free to create bug reports and features requests. Make sure to read the documentation before asking questions - this will avoid repeated questions, leaving us more time for developing the library.
 
-## About This Project
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+### Stay Tuned
+[Follow us](https://twitter.com/intent/follow?screen_name=tv_charts) on Twitter to receive updates.
